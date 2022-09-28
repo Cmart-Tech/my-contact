@@ -1,0 +1,190 @@
+.app {
+    text-align: center;
+    background-color: burlywood;
+    margin-top: 20px;
+  }
+  
+  .main-app {
+    width: 300px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 420px;
+    box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+    -webkit-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+    -moz-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    background-color: darkorange;
+  }
+
+  .my-pix {
+    display: flex;
+    position: absolute;
+    height: 250px;
+    width: 300px;
+    align-self: center;
+    top: 0;
+    justify-content: center;
+    align-self: center;
+    border-bottom: solid 2px rgb(59, 4, 4);
+    border-radius: 5px;
+    margin-bottom: 0;
+  }
+
+  .me {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 0;
+  }
+
+  .header-greeting {
+    display: flex;
+    position: absolute;
+    top: 250px;
+    color: rgb(8, 8, 8);
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 2px;
+  }
+  .header-title {
+    display: flex;
+    position: absolute;
+    top: 275px;
+    margin-top: 0;
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: rgb(80, 6, 6);
+  }
+.description {
+    display: flex;
+    position: absolute;
+    top: 288px;
+    font-size: 15px;
+    color: whitesmoke;
+    font-weight: 600;
+}
+  .content {
+    display: flex;
+    position: absolute;
+    top: 330px;
+    height: 170px;
+    width: 300px;
+    text-align: center;
+    border: solid 1px rgb(107, 7, 7);
+    border-radius: 5px;
+    background-color: rgb(236, 134, 10);
+  }
+
+  button {
+    display: grid;
+    position: absolute;
+    justify-self: center;
+    height: 40px;
+    width: 110px;
+    left: 50px;
+    padding: 10px;
+    background-color: rgb(116, 5, 51);
+    border-radius: 10px;
+    top: 15px;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    align-self: center;
+    cursor: pointer;
+  }
+
+  .btn-1 {
+    left: 160px;
+  }
+
+  .btn-2 {
+    left: 25px;
+  }
+
+  .btn-1:hover {
+    background-color: brown;
+  }
+
+  .btn-2:hover {
+    background-color: brown;
+  }
+
+  .twitt {
+    display: flex;
+    position: absolute;
+    left: 37px;
+    top: 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .linkdln {
+    display: flex;
+    position: absolute;
+    left: 37px;
+    top: 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .twitt-img {
+    display: flex;
+    position: absolute;
+    height: 20px;
+    left: 10px;
+    border-radius: 5px;
+    top: 9px;
+    margin-right: 10px;
+  }
+
+  .link-img {
+    display: flex;
+    position: absolute;
+    height: 20px;
+    left: 10px;
+    border-radius: 5px;
+    top: 9px;
+    margin-right: 10px;
+  }
+
+  .phone {
+    display: flex;
+    position: absolute;
+    top: 70px;
+    margin-top: 0;
+    left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .email {
+    display: flex;
+    position: absolute;
+    top: 90px;
+    margin-top: 0;
+    left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .services {
+    display: flex;
+    position: absolute;
+    top: 115px;
+    font-size: 14px;
+    left: 20px;
+    font-weight: 300;
+    color: antiquewhite;
+    margin-right: 20px;
+    text-indent: 10px;
+    height: 20px;
+  }
